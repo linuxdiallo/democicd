@@ -22,7 +22,7 @@ public class DemocicdApplication {
 
 	public static void main(String[] args) {
         logger.info("Application executed");
-		SpringApplication.run(DemocicdApplication.class, args);
+		SpringApplication.run(DemocicdApplication.class, args)
 	}
 
 	@GetMapping("hello")
