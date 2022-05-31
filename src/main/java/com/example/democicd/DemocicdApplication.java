@@ -26,7 +26,7 @@ public class DemocicdApplication {
 	}
 
 	@GetMapping("hello")
-	public String welocome() {
+	public  welocome() {
 		return "Hello you are welcome";
 	}
 
