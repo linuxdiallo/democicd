@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class DemocicdApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(DemocicdApplication.class);
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("Test case executing ...");
 		logger.info("Test case executing second log statement...");
 		assertEquals(true, true);
